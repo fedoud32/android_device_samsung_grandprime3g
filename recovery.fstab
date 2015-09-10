@@ -1,0 +1,8 @@
+/system           ext4       /dev/block/platform/sdio_emmc/by-name/SYSTEM
+/data             ext4       /dev/block/platform/sdio_emmc/by-name/userdata
+/cache            ext4       /dev/block/platform/sdio_emmc/by-name/CACHE
+/boot             emmc       /dev/block/platform/sdio_emmc/by-name/KERNEL
+/recovery         emmc       /dev/block/platform/sdio_emmc/by-name/RECOVERY
+/external_sd      vfat       /dev/block/platform/sdio_sd/mmcblk1p1              flags=display="External_sd";storage;wipeingui;removable
+# /internal_sd      vfat       /dev/block/platform/msm_sdcc.1/by-name/usbmsc      flags=display="Internal_sd";storage;wipeingui;removable
+# /usb-otg          vfat       /dev/block/sda1 /dev/block/sda                     flags=display="USB OTG";storage;wipeingui;removable
